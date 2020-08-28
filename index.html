@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+
+
+
+
+<html><head>
+
+<title>Pendrive</title>
+<style>
+.btn-group{
+				background-color:white;
+				}
+.img{
+			
+				}
+</style>
+<style>
+
+.flex{
+				display:flex;
+				}
+.img{
+justified-content:center;
+}
+
+</style>
+
+<style>
+div.scrollmenu {
+  background-color:white;
+  overflow: auto;
+  white-space: nowrap;
+}
+.blue{
+background-color:blue;
+}
+div.scrollmenu a {
+  display: inline-block;
+  color:black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color:#42e9f5;
+color:white;
+}
+</style>
+<style>
+#logo{
+				height:50px;
+				width:50px;
+				border-radius:10px;
+				}
+#modal{
+font-size:45px;
+color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}		
+html{
+    font-family: 'Montserrat';
+
+    align-items: center;
+    justify-items: center;
+
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --color-headings: #0077FF;
+    --color-text: #333333;
+}
+
+html[data-theme='dark'] {
+    --bg: #333333;
+    --bg-panel: #434343;
+    --color-headings: #3694FF;
+    --color-text: #B5B5B5;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+
+    
+
+   
+
+
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 52px;
+	height: 27px;
+	background: grey;
+	float: right;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:label {
+	background: var(--color-headings);
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 45px;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+.flex{
+display:flex;
+background-color:#e8ffff;
+justify-content: space-evenly;
+align-items:center;
+border:2px solid white;			
+				}
+
+.item{ 
+      display:block;
+      top:3px;
+      
+      }
+</style>
+<style>
+.scrollimg{
+height:40px;
+width:40px;
+border-radius:10px;
+justify-content:center;				}	
+</style>
+<style>
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:400px;
+	right:30px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+#carouselExampleIndicators{
+border-radius:20px;
+}
+.my-float{
+	margin-top:16px;
+}
+</style>
+
+<link rel="stylesheet" type="text/css" href="button.css">
+
+
+
+
+
+<style>
+
+
+
+.imp{
+display: flex;
+justify-content:space-evenly;
+
+}
+.mainproduct{
+text-decoration:none;
+}
+.mainp{
+				color:green;
+				}
+.mobiles{
+				text-decoration:bold;
+				
+				}
+.scrollimg1{
+width:60px;
+}
+.scrollimg2{
+width:60px;
+border-radius:none;
+}
+.navbar{
+				width:980px;
+				height:auto;
+				}
+#logo{
+			height:100px;
+			width:100px
+			}
+.navbar-toggler{
+				height:100px;
+				width:100px;
+				}
+.navbar-toggler-icon{
+				height:80px;
+				width:80px;
+				}			
+.navbar{
+				width:1000px;
+				
+				}
+.nav-item{
+				justified-content:center;
+				align:center;
+				}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+
+
+
+
+
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+
+
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<body>
+
+<nav class="navbar navbar-dark bg-dark"> 
+<a class="navbar-brand" href="#">
+
+<img id="logo" src="https://dl.dropbox.com/s/qx2faqol9mxrkvv/20200824_190350.jpg?dl=0">
+
+
+</a>
+<span id="modal" >
+PC Electronics</span>
+
+
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarSupportedContent"> <ul class="navbar-nav mr-auto"> 
+
+<center>
+
+<li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+
+  
+ </li>
+
+
+
+ <li class="nav-item"> <a class="nav-link" href="#">About Us</a> </li>
+ 
+  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products </a> 
+ 
+ 
+ <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+ 
+ <a class="dropdown-item" href="#Sony">Sony Pendrive</a> 
+ <a class="dropdown-item" href="#HP">HP Pendrive</a>
+ <a class="dropdown-item" href="#I">I ball pendrive</a>
+ <a class="dropdown-item" href="#Flipkart">Flipkart Pendrive</a>
+ <a class="dropdown-item" href="#Sandisk">Sandisk</a>
+
+ 
+ 
+  </div> </li> <li class="nav-item"> <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">FeedBack FORM</a> </li> </ul> </form>
+</center>
+
+<div class="flex1">
+
+</div>
+
+<!-- mode -->
+
+ </div>
+</nav> 
+
+
+
+
+
+<nav class="navbar1" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Pendrive</li>
+  </ol>
+</nav>
+
+
+
+
+
+
+
+<!-- pendrive -->
+
+
+<!-- Sony USM64GR/B2/USM64GR/B3 IN 31302149 64 GB Pen Drive  (Black) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="Sony">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m1.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m1.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m1.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>Sony USM64GR/B2/USM64GR/B3 IN 31302149 64 GB Pen Drive  (Black)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">995</i></h1> &nbsp; &nbsp; <h3><del>1400</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">40% off</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5>15,975 Ratings & 2,443 Reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 2.0|64 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>USB 2.0|64 GB</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>USB 2.0|64 GB</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>USB 2.0|64 GB<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To Sony USM64GR/B2/USM64GR/B3 IN 31302149 64 GB Pen Drive  (Black) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+<hr>
+
+
+<!--Sony USM 32 GB Pen Drive  (Black) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="Samsung">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m2.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m2.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m2.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>Sony USM 32 GB Pen Drive  (Black)</div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">495</i></h1> &nbsp; &nbsp; <h3><del>1,100</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">30% off</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5> 243 Ratings & 36 Reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 3.0|32 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Plastic</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>For Desktop Computer, Laptop</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>Color:Black<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy Sony USM 32 GB Pen Drive  (Black) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+<hr>
+<!--Sony Micro Vault USB Flash Drive - Pendrive 16GB Metal USM16MX/S- USB 2.0 16 GB Pen Drive  (Silver) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="Samsung">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m3.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m3.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m3.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>Sony Micro Vault USB Flash Drive - Pendrive 16GB Metal USM16MX/S- USB 2.0 16 GB Pen Drive  (Silver)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">350</i></h1> &nbsp; &nbsp; <h3><del>400</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">60% off</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5> 5000 rating and 2500 reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 2.0|16 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Metal</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>For Desktop Computer, Audio Player, Television, Laptop</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>EColor:Silver<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy Sony Micro Vault USB Flash Drive - Pendrive 16GB Metal USM16MX/S- USB 2.0 16 GB Pen Drive  (Silver) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+
+<hr>
+
+
+<!--HP V22OW 64 GB Pen Drive 64 GB Pen Drive  (Black, Silver) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="HP">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m4.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m4.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m4.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>HP V22OW 64 GB Pen Drive 64 GB Pen Drive  (Black, Silver)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">580</i></h1> &nbsp; &nbsp; <h3><del>1,199</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">30% off</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5>228 Ratings & 45 Reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 2.0|64 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Metal</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>For Laptop, Audio Player, Gaming Console, Tablet, Desktop Computer, Television, Netbook, Mobile</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>Color:Black, Silver<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy HP V22OW 64 GB Pen Drive 64 GB Pen Drive  (Black, Silver) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+
+
+<hr>
+
+
+
+
+<!--HP V215b 32 GB Pen Drive  (White) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="Samsung">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m5.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m5.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m6.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>HP V215b 32 GB Pen Drive  (White)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">9500</i></h1> &nbsp; &nbsp; <h3><del>9999</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">30% off</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5> 4.2 star rating and 2500 reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 2.0|32 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Metal</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>For Laptop, Audio Player, Tablet, Desktop Computer, Mobile, Television, Netbook</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>Color:White<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy HP V215b 32 GB Pen Drive  (White) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+<hr>
+
+
+<!--HP V220W 64 GB Pen Drive  (Multicolor) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="Samsung">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m6.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m6.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m6.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>HP V220W 64 GB Pen Drive  (Multicolor)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">643</i></h1> &nbsp; &nbsp; <h3><del>643</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">30% off</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5> 2,248 Ratings & 333 Reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 2.0|16 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Metal</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>For Laptop, Audio Player, Gaming Console, Tablet, Desktop Computer, Television, Mobile, Netbook</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>Color:Multicolor<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy HP V220W 64 GB Pen Drive  (Multicolor) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+
+
+<hr>
+
+<!--SanDisk OTG 3.0 Dual Drive 64 GB Pen Drive  (Black) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="Sandisk">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m7.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m7.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m7.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>SanDisk OTG 3.0 Dual Drive 64 GB Pen Drive  (Black)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">890</i></h1> &nbsp; &nbsp; <h3><del>1,899</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">53% off
+</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5> 992 Ratings & 121 Reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 3.0|64 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Plastic</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>Color:Black</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>For Netbook, Gaming Console, Desktop Computer, Tablet, Mobile, Audio Player, Television, Laptop<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy SanDisk OTG 3.0 Dual Drive 64 GB Pen Drive  (Black) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+
+
+<hr>
+
+
+<!--Sandisk Cruzer Blade 32 GB  (Black, Red) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="Samsung">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m8.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m8.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m8.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>Sandisk Cruzer Blade 32 GB  (Black, Red)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">439</i></h1> &nbsp; &nbsp; <h3><del>9999</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">30% off</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5>1,80,437 Ratings & 19,788 Reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 2.0|32 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Plastic</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>For Laptop, Desktop Computer</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>Color:Black, Red<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy Sandisk Cruzer Blade 32 GB  (Black, Red) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+<hr>
+
+
+
+
+
+<!--Flipkart SmartBuy OTM30PB6401 64 GB USB 3.0 OTG Pen Drive  (Black) -->
+
+
+
+
+
+
+
+<table style="width:100%" id="Flipkart">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m9.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m9.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m9.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>Flipkart SmartBuy OTM30PB6401 64 GB USB 3.0 OTG Pen Drive  (Black)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">749</i></h1> &nbsp; &nbsp; <h3><del>1999</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">30% off</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5> 1,401 Ratings & 208 Reviews</h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 3.0|64 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Plastic</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>For Laptop, Tablet, Desktop Computer, Mobile</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>Color:Black<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy Flipkart SmartBuy OTM30PB6401 64 GB USB 3.0 OTG Pen Drive  (Black) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+<hr>
+
+
+
+
+<!-- iball Cordial 32 GB Pen Drive  (Black)-->
+
+
+
+
+
+
+
+<table style="width:100%" id="I">
+    <tr>
+    <th>
+    
+    </th>
+   
+  </tr>
+  
+  <tr>
+   <td width="350" height="100"> 
+
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <ol class="carousel-indicators"> <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> </ol> <div class="carousel-inner"> <div class="carousel-item active"> 
+
+<img src="m10.1.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+
+<img src="m10.2.jpeg" class="d-block w-50" alt="..."> </div> <div class="carousel-item"> 
+
+<img src="m10.3.jpeg" class="d-block w-50" alt="..."> </div> </div> <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"> 
+
+
+
+
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    
+    
+    </td>
+    <td width="350" height="100">
+    
+     
+ <div class="row">
+ 
+ 
+ <h2>iball Cordial 32 GB Pen Drive  (Black)</h2> </div> <div class="row"> 
+
+
+<h1><i class="fa fa-inr" aria-hidden="true">1,149</i></h1> &nbsp; &nbsp; <h3><del>1,445</del></h3> &nbsp; &nbsp; 
+
+
+<h2 class="text-success">20% off
+</h2> </div> <div class="row"> <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3> &nbsp; &nbsp;
+
+
+
+<h5> New </h5> </div> <div class="row"> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+
+
+<strong>◊</strong>USB 3.0|32 GB
+</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i><br>
+
+ <strong>◊</strong>Metal</p> <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i>
+ 
+<strong>◊</strong>For Desktop Computer, Television, Laptop</p> 
+
+<p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> 
+
+<strong>◊</strong>Color:Black<i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p> </div> 
+
+
+
+<div class="row mt-4"> <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3> <p style="font-size: 20px"> &nbsp; Delivery in 2-5 Days | &nbsp; <span class="text-success">FREE</span> </p>
+
+
+
+&nbsp;&nbsp;<a href="sms://+919284378620?&body=I Want To buy iball Cordial 32 GB Pen Drive  (Black) plz Contact me"><img src="buynow.gif"></a>
+
+
+
+
+
+
+ </div> <div class="row mt-4"></div> </div>
+    </td>
+    
+  </tr>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+
+
+
+
+
+
+<b><hr></b>
+
+<hr>
+<center>
+<h3>MORE PRODUCTS</h3>
+</center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
